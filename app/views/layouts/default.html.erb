@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails: <%=@type%></title>
+    <style type="text/css" media="screen">
+      body {
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+        background-color: #000;
+        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+        font-size: 13px;
+        color: #fff;
+      }
+
+      #header .menu {
+        background-color:red;
+        height:50px;
+        list-style:none outside none;
+        margin-top:50px;
+        overflow:hidden;
+        padding-left:50px;
+      }
+      #header .menu li {
+        height:20px;
+        width: 100px;
+        float:left;
+      }
+
+      #header .menu li a {
+        color:#FFFFFF;
+        font-size:14px;
+      }
+      
+
+      #content {
+        margin:auto;
+        width:950px;
+      }
+
+      #footer {
+        border-top: 2px solid grey;
+      }
+
+      #footer ul {
+         margin:auto;
+         width:950px;
+      }
+
+      .list {
+        overflow: hidden;
+        padding-left:0;
+      }
+      .list li {
+        background-color:#333333;
+        float:left;
+        list-style:none outside none;
+        margin:0;
+        padding:0;
+        text-align:center;
+      }
+      .list li a {
+        background-color:#777777;
+        color:white;
+        display:block;
+        margin:10px;
+      }
+
+      .list li a:hover {
+        background-color:#aaaaaa;
+      }
+
+
+      .top {
+        
+      }
+
+      .top li {
+        height:180px;
+        line-height:180px;
+        width:180px;
+      }
+      .top li a {
+        width:160px;
+        line-height:160px;
+      }
+
+      .trades {
+        
+      }
+      .trades li {
+        height:90px;
+        line-height:90px;
+        width:90px;
+      }
+      .trades li a {
+        width:80px;
+        line-height:80px;
+        margin:5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <ul class="menu">
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>        
+      </ul>
+    </div>
+    <div id="content">
+    <ul class="list top">
+      <li><a href="/<%=@type%>/art-deco">Art-deco</a></li>
+      <li><a href="/light/">Light</a></li>
+      <li><a href="/accessories/">Accessories</a></li>
+      <li><a href="/light/">Light</a></li>
+      <li><a href="/accessories/">Accessories</a></li>
+      <li><a href="/furniture/">Art-deco</a></li>
+      <li><a href="/light/">Light</a></li>
+      <li><a href="/accessories/">Accessories</a></li>
+      <li><a href="/light/">Light</a></li>
+      <li><a href="/accessories/">Accessories</a></li>      
+    </ul>
+    </div>
+    
+    <div id="footer">
+        <ul class="list trades">
+          <li><a href="/furniture/">Art-deco</a></li>
+          <li><a href="/light/">Light</a></li>
+          <li><a href="/accessories/">Accessories</a></li>
+          <li><a href="/light/">Light</a></li>
+          <li><a href="/accessories/">Accessories</a></li>
+          <li><a href="/furniture/">Art-deco</a></li>
+          <li><a href="/light/">Light</a></li>
+          <li><a href="/accessories/">Accessories</a></li>
+          <li><a href="/light/">Light</a></li>     
+          <li><a href="/accessories/">Accessories</a></li>
+        </ul>
+    </div>
+  </body>
+</html>

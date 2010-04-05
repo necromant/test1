@@ -1,0 +1,137 @@
+      body {
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+        background-color: #000;
+        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+        font-size: 13px;
+        color: #fff;
+      }
+
+      #header .menu {
+        background-color:red;
+        height:50px;
+        list-style:none outside none;
+        margin-top:50px;
+        overflow:hidden;
+        padding-left:50px;
+      }
+      #header .menu li {
+        height:20px;
+        width: 100px;
+        float:left;
+      }
+
+      #header .menu li a {
+        color:#FFFFFF;
+        font-size:14px;
+      }
+      
+
+      #content {
+        margin:auto;
+        width:950px;
+        overflow:hidden;
+      }
+
+      #content h4 {
+          font-weight:normal;
+      }
+
+      #content p {
+        background-color:#333333;
+        float:left;
+        width:740px;
+        margin:0;
+        padding:0;
+      }
+
+      #content p strong {
+        background-color:#777777;
+        display:block;
+        line-height:430px;
+        margin:10px;
+        text-align:center;
+      }
+
+      #content p strong:hover {
+        background-color:#aaaaaa;
+      }
+
+      #footer {
+        border-top: 2px solid grey;
+      }
+
+      #footer ul {
+         margin:auto;
+         width:950px;
+      }
+
+      .list {
+        overflow: hidden;
+        padding-left:0;
+      }
+      .list li {
+        background-color:#333333;
+        float:left;
+        list-style:none outside none;
+        margin:0;
+        padding:0;
+        text-align:center;
+      }
+      .list li a {
+        background-color:#777777;
+        color:white;
+        display:block;
+        margin:10px;
+      }
+
+      .list li a:hover {
+        background-color:#aaaaaa;
+      }
+
+
+      .top {
+        
+      }
+
+      .top li {
+        height:180px;
+        line-height:180px;
+        width:180px;
+      }
+      .top li a {
+        width:160px;
+        line-height:160px;
+      }
+
+      .trades {
+        
+      }
+      .trades li {
+        height:90px;
+        line-height:90px;
+        width:90px;
+      }
+      .trades li a {
+        width:80px;
+        line-height:80px;
+        margin:5px;
+      }
+
+
+      .sidebar {
+         width:200px;
+         float:right;
+         margin-top:0;
+      }
+      .sidebar li {
+        height:90px;
+        line-height:90px;
+        width:90px;
+      }
+      .sidebar li a {
+        width:80px;
+        line-height:80px;
+        margin:5px;
+      }
