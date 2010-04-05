@@ -58,6 +58,30 @@
         background-color:#aaaaaa;
       }
 
+      #content form {
+        float:right;
+      }
+
+      #content form ul {
+        list-style:none outside none;
+      }
+
+      #content form label {
+        width:300px;
+        display:block;
+      }
+
+      #content form input {
+        width:300px;
+      }
+
+      #content form textarea {
+        height:100px;
+        width:300px;
+      }
+
+
+
       #footer {
         border-top: 2px solid grey;
       }
@@ -134,4 +158,18 @@
         width:80px;
         line-height:80px;
         margin:5px;
+      }
+
+      .brand {
+          
+      }
+      .brand strong {
+        float:left;
+        line-height:100px;
+        width:100px;
+      }
+
+      .brand i {
+        display:block;
+        padding-top:20px;
       }

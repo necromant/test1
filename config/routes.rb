@@ -47,6 +47,13 @@ ActionController::Routing::Routes.draw do |map|
   map.connect 'light/:style',       :controller => 'catalog', :action => 'style', :type=>'light'
   map.connect 'accessories/:style', :controller => 'catalog', :action => 'style', :type=>'accessories'
 
+  map.connect 'furniture/show/:name',   :controller => 'catalog', :action => 'show', :type=>'furniture'
+  map.connect 'light/show/:name',       :controller => 'catalog', :action => 'show', :type=>'light'
+  map.connect 'accessories/show/:name', :controller => 'catalog', :action => 'show', :type=>'accessories'
+
+
+  map.connect 'brand/:name',   :controller => 'brands', :action => 'show'
+
   
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
